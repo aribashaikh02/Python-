@@ -1,0 +1,12 @@
+a=40
+b=50
+
+w=a+b
+x=a-b
+y=a/b
+z=a*b
+
+print("sum of a and b:",w)
+print("difference of a and b:",x)
+print("quotient of a and b",y)
+print("product of a and b",z)
