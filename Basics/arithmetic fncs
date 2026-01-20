@@ -15,12 +15,12 @@ if b!=0:
 else:
  division= "Not possible"
  modulus= "Not possible"
- floor division= "Not possible"
+ floor_division= "Not possible"
 
 print ("\n---Results---")
 print ("Addition: ", addition)
 print ("subtracttion: ", subtraction)
-print ("Multiplication: ", multplication)
+print ("Multiplication: ", multiplication)
 print ("Division: ", division)
 print ("Modulus: ", modulus)
 print ("Exponent: ", exponent)
