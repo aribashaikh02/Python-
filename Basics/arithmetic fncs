@@ -1,12 +1,27 @@
-a=40
-b=50
+a=float(input("Enter the first number: "))
+b=float(input("Enter the second number: "))
 
-w=a+b
-x=a-b
-y=a/b
-z=a*b
+#arithmetic operations
+addition= a+b
+subtraction= a-b
+multiplication= a*b
+exponent= a**b
 
-print("sum of a and b:",w)
-print("difference of a and b:",x)
-print("quotient of a and b",y)
-print("product of a and b",z)
+#for possible divisons
+if b!=0:
+ division= a/b
+ modulus= a%b
+ floor_division= a//b
+else:
+ division= "Not possible"
+ modulus= "Not possible"
+ floor division= "Not possible"
+
+print ("\n---Results---")
+print ("Addition: ", addition)
+print ("subtracttion: ", subtraction)
+print ("Multiplication: ", multplication)
+print ("Division: ", division)
+print ("Modulus: ", modulus)
+print ("Exponent: ", exponent)
+print ("Floor division: ", floor_division)
