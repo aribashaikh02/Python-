@@ -1,3 +1,5 @@
+# merge sort in descending order by changing the logic
+
 def merge_sort(arr):
     if len(arr) > 1:
 
@@ -31,4 +33,5 @@ def merge_sort(arr):
 
 arr= list(map(int, input("enter numbers:").split()))
 merge_sort(arr)
+
 print("Sorted Array:",arr)
