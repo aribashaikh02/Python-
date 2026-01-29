@@ -1,3 +1,5 @@
+#bubble sorting in descending order
+
 n=int(input("Enter the number of elements:"))
 arr=[0]*n
 
@@ -11,6 +13,7 @@ for i in range(n-1):
 
 print("list:")
 print(arr)
+
 
 
 
