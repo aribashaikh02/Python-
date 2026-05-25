@@ -23,12 +23,23 @@ It includes basic concepts, practice problems, and small programs as I build my 
 - Practice Problems
 
 ## 📂 Structure
-│── Basics/
-│── Control_Flow/
-│── Functions/
-│── Data_Structures/
-│── OOP/
-│── Practice/
+│── Data_structures
+ |- array
+ |- sorting
+│── core_python
+ |- oops
+ |- turtle
+ |- global.py
+│── sem1_content
+ |- Basics
+  |- geometry
+  |- arithmetic fncs
+  |- purchase_cost_estimater
+ |- Class
+ |- Conditional_arrays
+ |- List operations
+ |- datatypes
+ |- Loops
 │── README.md
 
  🎯 Goals
